@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <title></title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link href='./style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <a class='button' data-query='hat'>Random sorting hat</a>
+            <a class='button' data-query='characters'>Characters</a>
+            <a class='button' data-query='houses'>Houses</a>
+            <a class='button' data-query='spells'>Spells</a>
+            <input type='search' placeholder='Search something' id='inputSearch'>
+        </header>
+        <main></main>
+        <modal-hp show='false'></modal-hp>
+        <loading-hp show='false'></loading-hp>
+        <audio id='voiceHat' volume='1'><source src='./images/voice-hat-Harry-Potter.mp3' type='audio/mp3'></audio>
+        <script src='./index.js' type='module'></script>
+    </body>
+</html>
